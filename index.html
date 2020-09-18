@@ -18,14 +18,17 @@
                 </li>
             </ul>
         </nav>
-        <div class="container">
-            <div id="logo">
-                <img href="#" alt="Google logo">
+        <div class="flex-container">
+            <div>
+                <img id="logo" src="images\logo.png" alt="Google logo">
             </div>
             <div>
                 <form action="https://google.com/search">
-                    <input type="text" name="q">
-                    <input type="submit" value="Google Search">
+                    <div><input id="searchbar" type="text" name="q"></div>
+                    <div>
+                        <input class="searchbutton" type="submit" value="Google Search">
+                        <input class="searchbutton" type="submit" value="I'm Feeling Lucky">
+                    </div>
                 </form>
             </div>
         </div>
